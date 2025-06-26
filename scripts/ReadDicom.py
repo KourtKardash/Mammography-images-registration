@@ -2,8 +2,8 @@ import pydicom
 import matplotlib.pyplot as plt
 import numpy as np
 
-file_path1 = "C:/Users/skras/OneDrive/Desktop/Mammography-images-registration/InBreastDynamics/AllDICOMs/before/53582710_465aa5ec1b59efc6_MG_R_ML_ANON.dcm"
-file_path2 = "C:/Users/skras/OneDrive/Desktop/Mammography-images-registration/InBreastDynamics/AllDICOMs/before/53582764_465aa5ec1b59efc6_MG_R_ML_ANON.dcm"
+file_path1 = "C:/Users/skras/OneDrive/Desktop/Mammography-images-registration/InBreastDynamics/AllDICOMs/before/50993670_b03f1dd34eb3c55f_MG_L_ML_ANON.dcm"
+file_path2 = "C:/Users/skras/OneDrive/Desktop/Mammography-images-registration/InBreastDynamics/AllDICOMs/after/50993616_b03f1dd34eb3c55f_MG_L_ML_ANON.dcm"
 
 ds1 = pydicom.dcmread(file_path1)
 ds2 = pydicom.dcmread(file_path2)
